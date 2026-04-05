@@ -1,0 +1,17 @@
+services:
+  file-cabinet:
+    image: ${IMAGE_NAME:-your-dockerhub-username/file-cabinet}:${IMAGE_TAG:-latest}
+    build: .
+    container_name: file-cabinet
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/backend/data
+    environment:
+      APP_NAME: File Cabinet
+      DATABASE_URL: sqlite:///./data/app.db
+      STORAGE_DIR: data/storage
+      KEEP_HOURS: 24
+      CLEANUP_INTERVAL_MINUTES: 30
+      PUBLIC_BASE_URL: ${PUBLIC_BASE_URL:-http://localhost:8000}

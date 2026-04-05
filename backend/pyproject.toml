@@ -1,0 +1,15 @@
+[project]
+name = "file-cabinet-backend"
+version = "0.1.0"
+description = "FastAPI backend for file cabinet"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi==0.115.12",
+  "pydantic-settings==2.8.1",
+  "python-multipart==0.0.20",
+  "sqlalchemy==2.0.40",
+  "uvicorn[standard]==0.34.0",
+]
+
+[tool.uv]
+package = false
