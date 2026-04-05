@@ -13,17 +13,17 @@
 <h2 align="center">界面预览</h2>
 
 <p align="center">
-  <img src="img/demo01.png" alt="demo01" width="50%" />
-  <img src="img/demo02.png" alt="demo02" width="50%" />
+  <img src="img/demo01.png" alt="demo01" width="45%" />
+  <img src="img/demo02.png" alt="demo02" width="45%" />
 </p>
 
 <p align="center">
-  <img src="img/demo03.png" alt="demo03" width="50%" />
-  <img src="img/demo04.png" alt="demo04" width="50%" />
+  <img src="img/demo03.png" alt="demo03" width="45%" />
+  <img src="img/demo04.png" alt="demo04" width="45%" />
 </p>
 
 <p align="center">
-  <img src="img/demo05.png" alt="demo05" width="50%" />
+  <img src="img/demo05.png" alt="demo05" width="45%" />
 </p>
 
 ## Docker 部署
